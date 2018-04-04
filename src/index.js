@@ -1,18 +1,19 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { render } from 'react-dom';
 import { AppContainer } from 'react-hot-loader';
-import App from './containers/HomePage';
+import Root from './containers/Root';
+import { configureStore, history } from './store/configureStore';
+import './app.global.css';
 
-const render = (Component) => {
-  ReactDOM.render(
-    <AppContainer>
-      <Component />
-    </AppContainer>,
-    document.getElementById('root'),
-  );
-};
+const store = configureStore();
 
-render(App);
+render(
+  <AppContainer>
+    <Root store={store} history={history} />
+  </AppContainer>,
+  document.getElementById('root')
+);
+
 if (module.hot) {
   module.hot.accept();
 }
