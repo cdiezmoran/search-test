@@ -1,0 +1,12 @@
+.Container {
+  display: flex;
+  padding: 24px;
+}
+
+.SideColumn {
+  flex-basis: 30%;
+}
+
+.MidColumn {
+  flex-basis: 40%;
+}
