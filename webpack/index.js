@@ -7,6 +7,11 @@ const devtool = require('./devtool');
 
 const settings = {
   resolve: {
+    alias: {
+      '@components': resolve(__dirname, '../src/components'),
+      '@shapes': resolve(__dirname, '../src/shapes'),
+      '@views': resolve(__dirname, '../src/views')
+    },
     extensions: ['*', '.js', '.jsx', '.css', '.scss'],
   },
   context: resolve(__dirname, '..'),
