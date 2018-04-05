@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Home.scss';
 
-import SearchBar from './SearchBar';
+import SearchBar from '@components/SearchBar';
 import ComparisonCard from './ComparisonCard';
 
 const Home = () => (
