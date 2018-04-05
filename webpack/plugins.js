@@ -56,7 +56,7 @@ if (isProduction) {
         comments: false,
       },
     }),
-    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/),
+    new webpack.IgnorePlugin(/^\.\/locale$/, /moment$/)
   );
 } else {
   plugins.push(
