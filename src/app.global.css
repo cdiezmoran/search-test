@@ -2,6 +2,10 @@
 
 body {
   color: white;
-  background-color: #36393E;
+  background-color: #607D8B;
   font-family: "Open Sans";
+}
+
+p {
+  margin: 0;
 }

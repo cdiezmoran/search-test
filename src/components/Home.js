@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Home.scss';
 
 import SearchBar from './SearchBar';
+import ComparisonCard from './ComparisonCard';
 
 const Home = () => (
   <div className={styles.Container}>
@@ -9,7 +10,7 @@ const Home = () => (
       <SearchBar />
     </div>
     <div className={styles.MidColumn}>
-      <p>Middle</p>
+      <ComparisonCard />
     </div>
     <div className={styles.SideColumn}>
       <SearchBar />
