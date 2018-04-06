@@ -6,3 +6,4 @@ cd search-test
 npm install
 npm start
 ```
+And then visit http://localhost:3000/ on your browser.
