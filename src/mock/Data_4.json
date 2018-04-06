@@ -1,0 +1,13 @@
+{
+  "id": 4,
+  "overviewFields": {
+    "name": "PlayerUnknown's Battlegrounds",
+    "alias": "PUBG"
+  },
+  "detailedFields": {
+    "developer": "Bluehole Studio Inc., PUBG Corporation",
+    "genre": "Multiplayer online battle royale",
+    "releaseDate": "March 23, 2017",
+    "mode": "Multiplayer"
+  }
+}

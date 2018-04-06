@@ -1,0 +1,13 @@
+{
+  "id": 5,
+  "overviewFields": {
+    "name": "World of Warcraft",
+    "alias": "WoW"
+  },
+  "detailedFields": {
+    "developer": "Blizzard Entretainment",
+    "genre": "MMORPG",
+    "releaseDate": "November 23, 2004",
+    "mode": "Multiplayer"
+  }
+}

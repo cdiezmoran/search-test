@@ -1,0 +1,13 @@
+{
+  "id": 1,
+  "overviewFields": {
+    "name": "Counter-Strike: Global Offensive",
+    "alias": "CS:GO"
+  },
+  "detailedFields": {
+    "developer": "Valve Corporation",
+    "genre": "First-person shoooter",
+    "releaseDate": "August 21, 2012",
+    "mode": "Multiplayer"
+  }
+}

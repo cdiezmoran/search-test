@@ -1,0 +1,13 @@
+{
+  "id": 2,
+  "overviewFields": {
+    "name": "League of Legends",
+    "alias": "LoL"
+  },
+  "detailedFields": {
+    "developer": "Riot Games",
+    "genre": "Multiplayer online battle arena",
+    "releaseDate": "October 27, 2009",
+    "mode": "Multiplayer"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": 6,
+  "overviewFields": {
+    "name": "Fortnite",
+    "alias": "Fortnite"
+  },
+  "detailedFields": {
+    "developer": "Epic Games, People Can Fly",
+    "genre": "Multiplayer online battle royale",
+    "releaseDate": "July 25, 2017",
+    "mode": "Multiplayer"
+  }
+}

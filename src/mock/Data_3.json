@@ -1,0 +1,13 @@
+{
+  "id": 3,
+  "overviewFields": {
+    "name": "Overwatch",
+    "alias": "OW"
+  },
+  "detailedFields": {
+    "developer": "Blizzard Entretainment",
+    "genre": "First-person shooter",
+    "releaseDate": "May 24, 2016",
+    "mode": "Multiplayer"
+  }
+}
