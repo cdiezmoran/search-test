@@ -8,3 +8,16 @@
     text-overflow: ellipsis;
   }
 }
+
+.Row {
+  display: flex;
+}
+
+.Key {
+  flex-basis: 25%;
+  opacity: 0.5;
+}
+
+.Value {
+  flex-basis: 75%;
+}

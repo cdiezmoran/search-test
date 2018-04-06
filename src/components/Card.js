@@ -1,10 +1,10 @@
 import React from 'react';
-import { string } from 'prop-types';
+import { string, bool } from 'prop-types';
 import { childrenShape } from '@shapes';
 import styles from './Card.scss';
 
-const Card = ({ title, children }) => (
-  <div className={styles.Card}>
+const Card = ({ title, children, overview }) => (
+  <div className={`${styles.Card} ${overview ? styles.Overview : ''}`}>
     {
       title
         ? (
@@ -22,11 +22,13 @@ const Card = ({ title, children }) => (
 
 Card.propTypes = {
   children: childrenShape.isRequired,
-  title: string
+  title: string,
+  overview: bool
 };
 
 Card.defaultProps = {
-  title: ''
+  title: '',
+  overview: false
 };
 
 export default Card;
