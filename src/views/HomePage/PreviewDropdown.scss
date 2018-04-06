@@ -1,0 +1,10 @@
+.List {
+  padding: 12px;
+  white-space: nowrap;
+
+  p {
+    margin-bottom: 6px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

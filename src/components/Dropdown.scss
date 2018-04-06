@@ -1,0 +1,27 @@
+.Dropdown {
+  left: 18px;
+  position: absolute;
+  top: 60px;
+  width: 90%;
+}
+
+.Container {
+  background-color: #fff;
+  border-radius: 4px;
+  color: #555;
+  position: relative;
+}
+
+.Container:after {
+  bottom: 100%;
+  border: solid transparent;
+  border-bottom-color: #fff;
+  border-width: 15px;
+  content: " ";
+  height: 0;
+  left: 20%;
+  margin-left: -15px;
+  pointer-events: none;
+  position: absolute;
+  width: 0;
+}
