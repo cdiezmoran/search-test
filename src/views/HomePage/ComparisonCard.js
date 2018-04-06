@@ -7,13 +7,15 @@ import styles from './ComparisonCard.scss';
 
 
 const ComparisonCard = ({ leftResult, rightResult }) => {
-  const renderRows = () =>
-    Object.keys(leftResult.detailedFields).map(key => (
+  const renderRows = () => {
+    const detailedFields = leftResult ? leftResult.detailedFields : rightResult.detailedFields;
+    return Object.keys(detailedFields).map(key => (
       <div className={styles.Row} key={uuid()}>
         <p>{leftResult ? leftResult.detailedFields[key] : ''}</p>
         <p>{rightResult ? rightResult.detailedFields[key] : ''}</p>
       </div>
     ));
+  };
 
   const renderContent = () => {
     if (leftResult || rightResult) {

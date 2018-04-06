@@ -55,6 +55,8 @@ class HomePage extends Component {
       game = this.findGameByName(value);
       if (game) {
         setGameResult(name, game);
+      } else {
+        toastr.error('We couldn\'t find anything that matches your search criteria.', 'Not Found!');
       }
     }
   };
