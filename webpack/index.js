@@ -8,6 +8,7 @@ const devtool = require('./devtool');
 const settings = {
   resolve: {
     alias: {
+      '@actions': resolve(__dirname, '../src/actions'),
       '@components': resolve(__dirname, '../src/components'),
       '@helpers': resolve(__dirname, '../src/helpers'),
       '@shapes': resolve(__dirname, '../src/shapes'),
