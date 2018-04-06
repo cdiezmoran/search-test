@@ -1,6 +1,7 @@
 .List {
   padding: 12px;
   white-space: nowrap;
+  width: 100%;
 
   p {
     margin-bottom: 6px;
@@ -11,6 +12,7 @@
 
 .Row {
   display: flex;
+  width: 100%;
 }
 
 .Key {
