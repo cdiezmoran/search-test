@@ -6,3 +6,19 @@
     margin-bottom: 12px;
   }
 }
+
+.List {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Row {
+  display: flex;
+  margin-bottom: 12px;
+
+  p {
+    flex-basis: 50%;
+    font-size: 14px;
+  }
+}
