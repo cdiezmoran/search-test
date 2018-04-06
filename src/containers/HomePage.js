@@ -42,15 +42,30 @@ class HomePage extends Component {
 
   handleSearch = (name, value) => {
     const { fetchGame, setGameResult } = this.props;
-    if (!Number.isNaN(value)) {
-      const game = this.findGameById(value);
+    let game;
+
+    if (!Number.isNaN(parseInt(value, 10))) {
+      game = this.findGameById(value);
       if (game) {
         setGameResult(name, game);
       } else {
         fetchGame(value, name);
       }
+    } else {
+      game = this.findGameByName(value);
+      if (game) {
+        setGameResult(name, game);
+      }
     }
   };
+
+  findGameByName = (value) => {
+    const { games } = this.props;
+    const lowValue = value.toLowerCase();
+    const result = games.filter(({ overviewFields: { name, alias } }) =>
+      name.toLowerCase().includes(lowValue) || alias.toLowerCase().includes(lowValue));
+    return result.length >= 1 ? result[0] : null;
+  }
 
   findGameById = (id) => {
     const { games } = this.props;
