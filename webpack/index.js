@@ -9,6 +9,7 @@ const settings = {
   resolve: {
     alias: {
       '@components': resolve(__dirname, '../src/components'),
+      '@helpers': resolve(__dirname, '../src/helpers'),
       '@shapes': resolve(__dirname, '../src/shapes'),
       '@views': resolve(__dirname, '../src/views')
     },
